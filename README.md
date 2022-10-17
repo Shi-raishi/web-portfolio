@@ -8,8 +8,7 @@
 プロジェクトルートでコマンドを実行する必要があります。
 
 ```sh
-# Start
-$ docker run -dit --rm --name portfolio1 -v "$PWD/public":/usr/local/apache2/htdocs/ -p 3000:80 httpd:2.4-alpine
+docker run -dit --rm --name portfolio1 -v "$PWD/public":/usr/local/apache2/htdocs/ -p 3000:80 httpd:2.4-alpine
 ```
 
 ## アクセス
