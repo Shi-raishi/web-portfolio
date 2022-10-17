@@ -21,7 +21,7 @@ $ docker run -dit --rm --name portfolio1 -v "$PWD/public":/usr/local/apache2/htd
 ## コンテナ終了
 
 制作終了時は以下のコマンドでコンテナを終了します。
-（※ `docker run` コマンドで --rm を使用している場合は Ctrl + C でプロセスを終了すると、自動的にコンテナも削除されます。）
+（※ `docker run` コマンドで --rm を使用している場合は Ctrl + C でプロセスを終了すると、自動的にコンテナも削除される。）
 
 ```sh
 $ docker stop portfolio1
