@@ -25,4 +25,4 @@ docker run -dit --rm --name portfolio1 -v "$PWD/public":/usr/local/apache2/htdoc
 docker stop portfolio1
 ```
 ## WebページURL
-https://git.heroku.com/web-portfolio-sample-shirai.git
+https://web-portfolio-sample-shirai.herokuapp.com/
