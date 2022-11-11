@@ -4,8 +4,7 @@
 
 ## コンテナ起動
 
-起動するときは以下のコマンドを入力します。
-プロジェクトルートでコマンドを実行する必要があります。
+プロジェクトルートで以下のコマンドを実行
 
 ```sh
 docker run -dit --rm --name portfolio1 -v "$PWD/public":/usr/local/apache2/htdocs/ -p 3000:80 httpd:2.4-alpine
@@ -13,15 +12,17 @@ docker run -dit --rm --name portfolio1 -v "$PWD/public":/usr/local/apache2/htdoc
 
 ## アクセス
 
-コンテナ起動中は、以下の URL にアクセスできます。
+コンテナ起動中は、以下の URL にアクセス
 
 <http://localhost:3000/>
 
 ## コンテナ終了
 
-制作終了時は以下のコマンドでコンテナを終了します。
+終了時は以下のコマンドでコンテナを終了
 （※ `docker run` コマンドで --rm を使用している場合は Ctrl + C でプロセスを終了すると、自動的にコンテナも削除される。）
 
 ```sh
-$ docker stop portfolio1
+docker stop portfolio1
 ```
+## WebページURL
+https://git.heroku.com/web-portfolio-sample-shirai.git
