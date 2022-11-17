@@ -1,4 +1,4 @@
-# web-portfolio-yumi
+# web-portfolio
 
 このプロジェクトは、練習用ポートフォリオのソースコードです。
 
